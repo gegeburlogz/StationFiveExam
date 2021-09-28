@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "109734eb-846a-49a9-9bee-78b7f2528b01",
+		"name": "Exams",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Station Five",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"conversation_id\": \"Convoid\",\r\n    \"message\": \"Sample Message\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3020/message",
+					"host": [
+						"localhost"
+					],
+					"port": "3020",
+					"path": [
+						"message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
